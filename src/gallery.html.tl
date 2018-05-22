@@ -45,26 +45,29 @@
 
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 
-<ins
-  class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-3660238911851782"
-  data-ad-slot="9786032551"
-  data-ad-format="auto"></ins>
-<script>(adsbygoogle = window.adsbygoogle || []).push({})</script>
-
 <ul>
   ${
-
-    gallery.images
-
-      .map(image =>
-        `<li>
-          <a href=${image}>
-            <img src=${image}>
-          </a>`)
-
-      .join('\n')
+    shuffle(
+      [...gallery.images.map(image => `
+          <li>
+            <a href=${image}>
+              <img src=${image}>
+            </a>
+        `),
+        `
+          <ins
+            class="adsbygoogle"
+            style="display:block"
+            data-ad-client="ca-pub-3660238911851782"
+            data-ad-slot="9786032551"
+            data-ad-format="auto"></ins>
+          <script>
+            (adsbygoogle = window.adsbygoogle || []).push({})
+          </script>
+        `
+      ]
+    )
+    .join('\n')
 
   }
 </ul>

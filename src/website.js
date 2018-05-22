@@ -330,6 +330,24 @@ function slug(string) {
 
 }
 
+function shuffle(array=[]) {
+
+  for (let i = array.length - 1; i > 0; i--) {
+
+    const j = Math.floor(Math.random() * (i + 1))
+
+    const temp = array[i]
+
+    array[i] = array[j]
+
+    array[j] = temp
+
+  }
+
+  return array
+
+}
+
 const month = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December']
 
 // compile css
@@ -341,7 +359,7 @@ jsts.compile('index.html.tl', '../index.html', {site, galleries, slug})
 // compile gallery pages
 galleries.forEach(gallery =>
 
-  jsts.compile('gallery.html.tl',`../${slug(gallery.title)}.html`, {site, gallery, month}))
+  jsts.compile('gallery.html.tl',`../${slug(gallery.title)}.html`, {site, gallery, month, shuffle}))
 
 // Output sitemap.txt
 fs.writeFileSync('../sitemap.txt',
