@@ -1,0 +1,31 @@
+{
+  "name": "bengalcat.party",
+  "version": "1.0.0",
+  "description": "Its a bengal cat party website",
+  "main": "src/website.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tomhodgins/bengalcat.party.git"
+  },
+  "keywords": [
+    "bengal",
+    "cat",
+    "party"
+  ],
+  "author": "Tommy Hodgins",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tomhodgins/bengalcat.party/issues"
+  },
+  "homepage": "https://github.com/tomhodgins/bengalcat.party#readme",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "glob": "^7.1.2"
+  }
+}
