@@ -43,6 +43,16 @@
 
 </aside>
 
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+<ins
+  class="adsbygoogle"
+  style="display:block"
+  data-ad-client="ca-pub-3660238911851782"
+  data-ad-slot="9786032551"
+  data-ad-format="auto"></ins>
+<script>(adsbygoogle = window.adsbygoogle || []).push({})</script>
+
 <ul>
   ${
 
@@ -60,3 +70,11 @@
 </ul>
 
 <a href=${gallery.url} class=link title="View Gallery on Imgur">View Gallery on Imgur</a>
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-119667733-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || []
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date())
+  gtag('config', 'UA-119667733-1')
+</script>
