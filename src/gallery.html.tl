@@ -20,7 +20,7 @@
 <meta name="twitter:description" content="${site.description}">
 
 <link rel=apple-touch-icon href=src/favicon.png>
-<link type=image/x-icon rel="shortcut icon" href=favicon.png>
+<link type=image/x-icon rel="shortcut icon" href=src/favicon.png>
 <link href="https://fonts.googleapis.com/css?family=Bubblegum+Sans|Mystery+Quest|Bubblegum+Sans" rel=stylesheet>
 
 <link rel=stylesheet href=style.css>
