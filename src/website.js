@@ -348,7 +348,7 @@ function shuffle(array=[]) {
 
 }
 
-const month = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December']
+const month = [0, 'January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December']
 
 // compile css
 jsts.compile('style.css.tl', '../style.css', {})
