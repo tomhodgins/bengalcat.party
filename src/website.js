@@ -292,7 +292,7 @@ let galleries = [
   {
     title: `George's first nap at home`,
     url: `https://imgur.com/gallery/JCU2m`,
-    date: {day: 0, month: 12, year: 2016},
+    date: {day: 29, month: 12, year: 2016},
     description: `George's very first day at home. I can't wait to share pictures of this little guy growing up.`,
     keywords: `George first home nap adopted adoption day new`,
     images: ["https://i.imgur.com/TFCHIpv.jpg", "https://i.imgur.com/yMrWSBX.jpg", "https://i.imgur.com/WvXuNLU.jpg", "https://i.imgur.com/ohYRpqL.jpg", "https://i.imgur.com/5Lbiagf.jpg", "https://i.imgur.com/hOBuiOO.jpg", "https://i.imgur.com/OwgW249.jpg", "https://i.imgur.com/4xKCg9X.jpg", "https://i.imgur.com/RUed38H.jpg", "https://i.imgur.com/M62hdJj.jpg", "https://i.imgur.com/aZDGnQl.jpg", "https://i.imgur.com/QFmedEn.jpg", "https://i.imgur.com/EJqPJLl.jpg", "https://i.imgur.com/4eV7X0a.jpg", "https://i.imgur.com/S841EWu.jpg", "https://i.imgur.com/P7mUGk4.jpg", "https://i.imgur.com/6dmiZS7.jpg", "https://i.imgur.com/CZ7K6Xg.jpg", "https://i.imgur.com/NaDytKH.jpg", "https://i.imgur.com/G5Y7Fvi.jpg", "https://i.imgur.com/nU9srMJ.jpg", "https://i.imgur.com/Zj0q77Q.jpg", "https://i.imgur.com/cHMP0nO.jpg", "https://i.imgur.com/RZOWsyQ.jpg", "https://i.imgur.com/6CRZ1ff.jpg", "https://i.imgur.com/HAnAw3H.jpg", "https://i.imgur.com/PL4AMg5.jpg", "https://i.imgur.com/FHjBkGl.jpg", "https://i.imgur.com/JNM0cAd.jpg", "https://i.imgur.com/url6e0g.jpg", "https://i.imgur.com/Bl93EiZ.jpg", "https://i.imgur.com/a1IcWMo.jpg", "https://i.imgur.com/6GBqfhh.jpg"],
