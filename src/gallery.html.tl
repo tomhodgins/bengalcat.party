@@ -31,7 +31,7 @@
 
   <h2 class=title>${gallery.title}</h2>
 
-  <small class=posted>Posted: ${month[gallery.date.month]} ${gallery.date.day}, ${gallery.date.year}</small>
+  <small class=posted>Posted: ${month[gallery.date.month - 1]} ${gallery.date.day}, ${gallery.date.year}</small>
 
   <p>${gallery.description}</p>
 
@@ -55,15 +55,16 @@
             </a>
         `),
         `
-          <ins
-            class="adsbygoogle"
-            style="display:block"
-            data-ad-client="ca-pub-3660238911851782"
-            data-ad-slot="9786032551"
-            data-ad-format="auto"></ins>
-          <script>
-            (adsbygoogle = window.adsbygoogle || []).push({})
-          </script>
+          <li>
+            <ins
+              class="adsbygoogle"
+              style="display:block"
+              data-ad-client="ca-pub-3660238911851782"
+              data-ad-slot="9786032551"
+              data-ad-format="auto"></ins>
+            <script>
+              (adsbygoogle = window.adsbygoogle || []).push({})
+            </script>
         `
       ]
     )
