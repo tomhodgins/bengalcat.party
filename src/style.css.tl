@@ -6,7 +6,7 @@
   font-kerning: auto;
 }
 html {
-  font-family: sans-serif;
+  font-family: 'Bubblegum Sans', cursive;
   -webkit-text-size-adjust: 100%;
   background-color: black;
   background-image: url('src/fur.jpg');
@@ -22,6 +22,10 @@ body {
 a {
   color: white;
   text-decoration: none;
+  transition: color .2s ease-in-out;
+}
+a:hover {
+  color: gold;
 }
 ul {
   list-style: none;
@@ -41,7 +45,9 @@ li img {
 }
 .toc li a {
   display: block;
-  font-size: 7vw;
+  font-size: 6vw;
+  font-weight: normal;
+  font-family: 'Mystery Quest', cursive;
   padding: 1em 2em;
   background-repeat: no-repeat;
   background-position: center;
@@ -73,7 +79,6 @@ li img {
   margin: auto;
   line-height: 1.5;
   text-shadow: black 1px 1px 2px;
-  font-weight: bolder;
   position: relative;
   z-index: 100;
 }
@@ -88,6 +93,7 @@ a.link {
 }
 a.link:hover,
 a.link:focus {
+  color: white;
   background: gold;
   text-shadow: orange 1px 1px 2px;
 }
@@ -112,7 +118,6 @@ h2 {
   margin: 0;
 }
 p {
-  font-family: 'Bubblegum Sans', cursive;
   font-size: 20pt;
 }
 aside {
