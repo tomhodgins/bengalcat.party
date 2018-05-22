@@ -8,16 +8,27 @@
 html {
   font-family: 'Bubblegum Sans', cursive;
   -webkit-text-size-adjust: 100%;
+}
+body {
+  color: white;
+  margin: 0;
+  position: relative;
+}
+body:before {
+  content: '';
+  display: block;
+  top: 0;
+  left: 0;
+  position: fixed;
+  width: 100%;
+  height: 100%;
   background-color: black;
   background-image: url('src/fur.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   max-height: 100%;
-}
-body {
-  color: white;
-  margin: 0;
+  z-index: -1;
 }
 a {
   color: white;
