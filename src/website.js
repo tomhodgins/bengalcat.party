@@ -14,7 +14,7 @@ let galleries = [
     url: `https://imgur.com/gallery/JjpQ3dz`,
     date: {day: 2, month: 5, year: 2018},
     description: `I walked in the room today to see George totally zonked out having his cat nap and sleeping on the bed. I couldn't resist taking some pictures to share`,
-    keywords: `asleep speeling sleepy napping nap`,
+    keywords: `asleep sleeping sleepy napping nap`,
     images: ["https://i.imgur.com/jjjHLYV.jpg", "https://i.imgur.com/l3N34S9.jpg", "https://i.imgur.com/H8wVdVw.jpg", "https://i.imgur.com/JkjwsuF.jpg", "https://i.imgur.com/Bur6nPN.jpg", "https://i.imgur.com/dT9dhQE.jpg"]
   },
   {
@@ -254,14 +254,14 @@ let galleries = [
     url: `https://imgur.com/gallery/yx8N4`,
     date: {day: 10, month: 1, year: 2017},
     description: `Our cat family, made of Jaz the tuxedo, Gus the siamese and George the bengal :D Our house has never been happier!`,
-    keywords: ``,
+    keywords: `Jasmine Augustus George family`,
     images: ["https://i.imgur.com/YbiI2amr.jpg", "https://i.imgur.com/H2bWGQgr.jpg", "https://i.imgur.com/soBnxDEr.jpg", "https://i.imgur.com/cXREAM9r.jpg", "https://i.imgur.com/0HgWZaHr.jpg", "https://i.imgur.com/L9BAzz3r.jpg", "https://i.imgur.com/8lmyMO2r.jpg"],
   },
   {
     title: `George snuzzling Gus`,
     url: `https://imgur.com/gallery/3Ha09`,
     date: {day: 8, month: 1, year: 2017},
-    description: `George snuzzling his baby brother Gus`,
+    description: `Gus snuzzling his baby brother George`,
     keywords: `gus snuggle snuzzle snoozle`,
     images: ["https://i.imgur.com/xB6CxxEr.jpg", "https://i.imgur.com/28gmWq1r.jpg", "https://i.imgur.com/qwm1YKir.jpg", "https://i.imgur.com/zE8VkIbr.jpg", "https://i.imgur.com/2L9KPi3r.jpg", "https://i.imgur.com/kJzYK54r.jpg", "https://i.imgur.com/HwcuS0Sr.jpg", "https://i.imgur.com/s3KdTk6r.jpg"],
   },

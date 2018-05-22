@@ -8,11 +8,16 @@
 html {
   font-family: sans-serif;
   -webkit-text-size-adjust: 100%;
+  background-color: black;
+  background-image: url('src/fur.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  max-height: 100%;
 }
 body {
   color: white;
   margin: 0;
-  background: black;
 }
 a {
   color: white;

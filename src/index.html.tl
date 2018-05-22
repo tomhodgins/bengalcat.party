@@ -10,16 +10,16 @@
 <meta property="og:title" content="${site.title}">
 <meta property="og:type" content=website>
 <meta property="og:url" content=https://bengalcat.party>
-<!--<meta property="og:image" content=favicon.png>-->
+<meta property="og:image" content=src/favicon.png>
 <meta property="og:description" content="${site.description}">
 
 <meta name="twitter:title" content="${site.title}">
 <meta name="twitter:creator" content="@innovati">
 <meta name="twitter:card" content=summary>
-<!--<meta name="twitter:image" content=favicon.png>-->
+<meta name="twitter:image" content=src/favicon.png>
 <meta name="twitter:description" content="${site.description}">
 
-<!-- <link rel=apple-touch-icon href=favicon.png> -->
+<link rel=apple-touch-icon href=src/favicon.png>
 
 <link href="https://fonts.googleapis.com/css?family=Bubblegum+Sans|Mystery+Quest|Bubblegum+Sans" rel=stylesheet>
 
