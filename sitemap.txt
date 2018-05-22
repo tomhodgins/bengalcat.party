@@ -1,5 +1,6 @@
 baby-george.html
 cat-trap.html
+ceiling-inspection.html
 george-and-ali-the-gator.html
 george-and-gus-snuggling.html
 george-and-gus.html

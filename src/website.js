@@ -10,6 +10,14 @@ let site = {
 
 let galleries = [
   {
+    title: 'Ceiling Inspection',
+    url: 'https://imgur.com/gallery/00caKVk',
+    date: {day: 22, month: 5, year: 2018},
+    description: `George enjoys hopping up on top of closet doors. Here he is just a few inches from the ceiling!`,
+    keywords: 'ceiling closet door climb',
+    images: ["https://i.imgur.com/UmdNdVvg.jpg", "https://i.imgur.com/VUDkEbng.jpg", "https://i.imgur.com/PzckfhPg.jpg"]
+  },
+  {
     title: `George zonked out on the bed`,
     url: `https://imgur.com/gallery/JjpQ3dz`,
     date: {day: 2, month: 5, year: 2018},
