@@ -373,7 +373,7 @@ galleries.forEach(gallery =>
 fs.writeFileSync('../sitemap.txt',
 
   glob.sync('../*.html')
-    .map(path => path.replace(/^..\//, ''))
+    .map(path => path.replace(/^..\//, 'https://bengalcat.party/'))
     .join('\n')
 
 )
