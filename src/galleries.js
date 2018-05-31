@@ -37,6 +37,14 @@ or
 module.exports = [
 
   {
+    title: `Ghost Hunting`,
+    url: `https://imgur.com/gallery/CNYT6Fm`,
+    date: {day: 31, month: 5, year: 2018},
+    description: `Catsitting George's half-sister Ghost`,
+    keywords: `ghost hunting silver leopard`,
+    images:  ["https://i.imgur.com/oQZLnkJg.jpg", "https://i.imgur.com/TWCMsIgg.jpg", "https://i.imgur.com/xWeA1gfg.jpg", "https://i.imgur.com/EgwsKpPg.jpg", "https://i.imgur.com/aw7zYUsg.jpg", "https://i.imgur.com/WOBpIyhg.jpg", "https://i.imgur.com/gZbSGTig.jpg", "https://i.imgur.com/ruXKgoKg.jpg", "https://i.imgur.com/XzjtoEog.jpg"],
+  },
+  {
     title: 'Ceiling Inspection',
     url: 'https://imgur.com/gallery/00caKVk',
     date: {day: 22, month: 5, year: 2018},
