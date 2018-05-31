@@ -6,11 +6,11 @@ const glob = require('glob')
 const jstsNode = require('./lib/jsts-node.js')
 const helpers = require('./lib/helpers.js')
 
-// Gallery data
-const galleries = require('./galleries.js')
-
 // Site info
 const site = require('./site-info.js')
+
+// Gallery data
+const galleries = require('./galleries.js')
 
 // Compile css file
 jstsNode.compile('templates/style.css.jsts', '..' + site.stylesheet)
