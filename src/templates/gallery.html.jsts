@@ -35,7 +35,7 @@
   gtag('config', 'UA-119667733-1');
 </script>
 
-<h1 class=title><a href=index.html>${site.title}</a></h1>
+<h1 class=title><a href=/index.html>${site.title}</a></h1>
 
 <aside>
 

@@ -10,13 +10,7 @@ const helpers = require('./lib/helpers.js')
 const galleries = require('./galleries.js')
 
 // Site info
-let site = {
-  title: `BengalCat.Party`,
-  description: `Pictures of George Franklin, the adventurous bengal cat`,
-  keywords: `bengal cat kitten bengals feline bengal tabby cute adorable animal pictures photo gallery`,
-  favicon: 'src/img/favicon.png',
-  stylesheet: '/style.css'
-}
+const site = require('./site-info.js')
 
 // Compile css file
 jstsNode.compile('templates/style.css.jsts', '..' + site.stylesheet)
