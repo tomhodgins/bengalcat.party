@@ -146,7 +146,12 @@ aside {
   width: calc(100% - 1em);
   border: 1px solid black;
   background: rgba(0,0,0, .3);
+  transition: border-color .2s ease-in-out;
 }
+[type=search]:focus {
+  border-color: orange;
+}
+type
 @media (max-width: 375px) {
   h1 {
     font-size: 24pt;

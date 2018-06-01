@@ -37,15 +37,19 @@
 
 <h1 class=title>${site.title}</h1>
 
-<h2>Search</h2>
+<aside>
 
-<input type=search placholder="Enter your search term(s) here">
+  <h2>Search</h2>
+
+  <input type=search placeholder="Enter your search term(s) here">
+
+</aside>
 
 <ul class=toc></ul>
 
 <script>
   const searchBox = document.querySelector('[type=search]')
-  const list = document.querySelector('#toc')
+  const list = document.querySelector('.toc')
 
   var galleries = ${
 
