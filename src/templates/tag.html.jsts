@@ -37,9 +37,7 @@
 
 <h1 class=title><a href=/index.html>${site.title}</a></h1>
 
-<aside>
-
-  <h2 class=title>Tagged &rarr; ${
+<h1 class=title><a href=/tags/${slug(tag)}.html>Tagged &rarr; ${
     tag.split(' ')
 
       .reduce((acc, word) => {
@@ -52,11 +50,7 @@
 
       .join(' ')
 
-  }</h2>
-
-</aside>
-
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+}</h1>
 
 <ul class=toc>
   ${
@@ -66,7 +60,7 @@
       .map(gallery => `
         <li>
           <a
-              href=/gallery/${slug(gallery.title)}.html
+            href=/gallery/${slug(gallery.title)}.html
             style="background-image: url(${gallery.images[Math.floor(Math.random() * gallery.images.length)]});"
           >
             <span>${gallery.title}</span>
@@ -76,3 +70,13 @@
 
   }
 </ul>
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+<ins
+  class="adsbygoogle"
+  style="display:block"
+  data-ad-client="ca-pub-3660238911851782"
+  data-ad-slot="9786032551"
+  data-ad-format="auto"></ins>
+<script>(adsbygoogle = window.adsbygoogle || []).push({})</script>
