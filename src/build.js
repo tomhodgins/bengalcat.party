@@ -42,7 +42,7 @@ fs.writeFileSync('../sitemap.txt',
 
 )
 
-// Find all tags and sort in alphabetical order
+// Find all tags
 const tags = galleries
 
   .reduce((acc, gallery) => {
@@ -62,24 +62,6 @@ const tags = galleries
     return acc
 
   }, [])
-
-  .sort((a, b) => {
-
-    if (a[0] > b[0]) {
-
-      return 1
-
-    } else if (a[0] < b[0]) {
-
-      return -1
-
-    } else {
-
-      return 0
-
-    }
-
-  })
 
 // Compile found tags to pages
 tags.forEach(tag => {
