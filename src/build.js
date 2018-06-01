@@ -51,9 +51,9 @@ const tags = galleries
 
     for (tag in keywords) {
 
-      if (!acc.includes(keywords[tag])) {
+      if (!acc.includes(keywords[tag].toLowerCase())) {
 
-        acc.push(keywords[tag])
+        acc.push(keywords[tag].toLowerCase())
 
       }
 

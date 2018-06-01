@@ -46,6 +46,7 @@ https://bengalcat.party/tags/anxiety.html
 https://bengalcat.party/tags/asleep.html
 https://bengalcat.party/tags/augustus.html
 https://bengalcat.party/tags/baby.html
+https://bengalcat.party/tags/bed.html
 https://bengalcat.party/tags/bedding.html
 https://bengalcat.party/tags/best.html
 https://bengalcat.party/tags/bff.html
@@ -56,6 +57,7 @@ https://bengalcat.party/tags/buddy.html
 https://bengalcat.party/tags/business.html
 https://bengalcat.party/tags/case.html
 https://bengalcat.party/tags/cat.html
+https://bengalcat.party/tags/catdad.html
 https://bengalcat.party/tags/catfriends.html
 https://bengalcat.party/tags/cattv.html
 https://bengalcat.party/tags/ceiling.html
@@ -102,6 +104,7 @@ https://bengalcat.party/tags/inside.html
 https://bengalcat.party/tags/itty.html
 https://bengalcat.party/tags/jail.html
 https://bengalcat.party/tags/jasmine.html
+https://bengalcat.party/tags/jump.html
 https://bengalcat.party/tags/kitten.html
 https://bengalcat.party/tags/kitty.html
 https://bengalcat.party/tags/leopard.html
@@ -137,9 +140,12 @@ https://bengalcat.party/tags/rescue.html
 https://bengalcat.party/tags/separation.html
 https://bengalcat.party/tags/sheets.html
 https://bengalcat.party/tags/siamese.html
+https://bengalcat.party/tags/sibling.html
 https://bengalcat.party/tags/silver.html
 https://bengalcat.party/tags/sink.html
+https://bengalcat.party/tags/sister.html
 https://bengalcat.party/tags/size.html
+https://bengalcat.party/tags/sleep.html
 https://bengalcat.party/tags/sleeping.html
 https://bengalcat.party/tags/sleepy.html
 https://bengalcat.party/tags/sneaky.html
@@ -157,6 +163,7 @@ https://bengalcat.party/tags/stream.html
 https://bengalcat.party/tags/stretch.html
 https://bengalcat.party/tags/sweet.html
 https://bengalcat.party/tags/tiger.html
+https://bengalcat.party/tags/tigra.html
 https://bengalcat.party/tags/tiny.html
 https://bengalcat.party/tags/toy.html
 https://bengalcat.party/tags/trap.html
@@ -164,5 +171,6 @@ https://bengalcat.party/tags/tree.html
 https://bengalcat.party/tags/tub.html
 https://bengalcat.party/tags/two.html
 https://bengalcat.party/tags/unafraid.html
+https://bengalcat.party/tags/vertical.html
 https://bengalcat.party/tags/watching.html
 https://bengalcat.party/tags/water.html

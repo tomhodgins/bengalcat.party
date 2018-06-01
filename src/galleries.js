@@ -40,8 +40,8 @@ module.exports = [
     title: `Ghost Hunting`,
     url: `https://imgur.com/gallery/CNYT6Fm`,
     date: {day: 31, month: 5, year: 2018},
-    description: `Catsitting George's half-sister Ghost`,
-    keywords: `ghost hunting silver leopard`,
+    description: `Catsitting George's half-sister Ghost. She has the same dad as George (Squilliam) but her mom is Tigra, and George was born to Wolverina`,
+    keywords: `Ghost hunting silver leopard sister Tigra baby sibling`,
     images:  ["https://i.imgur.com/oQZLnkJg.jpg", "https://i.imgur.com/TWCMsIgg.jpg", "https://i.imgur.com/xWeA1gfg.jpg", "https://i.imgur.com/EgwsKpPg.jpg", "https://i.imgur.com/aw7zYUsg.jpg", "https://i.imgur.com/WOBpIyhg.jpg", "https://i.imgur.com/gZbSGTig.jpg", "https://i.imgur.com/ruXKgoKg.jpg", "https://i.imgur.com/XzjtoEog.jpg"],
   },
   {
@@ -49,7 +49,7 @@ module.exports = [
     url: 'https://imgur.com/gallery/00caKVk',
     date: {day: 22, month: 5, year: 2018},
     description: `George enjoys hopping up on top of closet doors. Here he is just a few inches from the ceiling!`,
-    keywords: 'ceiling closet door climb',
+    keywords: 'George ceiling closet door climb jump vertical',
     images: ['https://i.imgur.com/UmdNdVvg.jpg', 'https://i.imgur.com/VUDkEbng.jpg', 'https://i.imgur.com/PzckfhPg.jpg']
   },
   {
@@ -57,7 +57,7 @@ module.exports = [
     url: `https://imgur.com/gallery/JjpQ3dz`,
     date: {day: 2, month: 5, year: 2018},
     description: `I walked in the room today to see George totally zonked out having his cat nap and sleeping on the bed. I couldn't resist taking some pictures to share`,
-    keywords: `asleep sleeping sleepy napping nap`,
+    keywords: `George asleep sleeping sleepy napping nap naptime bed`,
     images: ['https://i.imgur.com/jjjHLYV.jpg', 'https://i.imgur.com/l3N34S9.jpg', 'https://i.imgur.com/H8wVdVw.jpg', 'https://i.imgur.com/JkjwsuF.jpg', 'https://i.imgur.com/Bur6nPN.jpg', 'https://i.imgur.com/dT9dhQE.jpg']
   },
   {
@@ -65,7 +65,7 @@ module.exports = [
     url: `https://imgur.com/gallery/QbkIn`,
     date: {day: 4, month: 4, year: 2018},
     description: `I woke up to an extra pillow this morning, George had his chubby little butt next to my pillow and tricked me into snuggling him :3`,
-    keywords: `sneaky kitty pillow disguise hiding`,
+    keywords: `George sneaky kitty pillow disguise hiding sleep`,
     images: ['https://i.imgur.com/PspcYJY.jpg', 'https://i.imgur.com/9eGWU61.jpg', 'https://i.imgur.com/Ew9kabf.jpg', 'https://i.imgur.com/kGQeYHZ.jpg']
   },
   {
@@ -73,7 +73,7 @@ module.exports = [
     url: `https://imgur.com/gallery/FCpJN`,
     date: {day: 22, month: 3, year: 2018},
     description: `More pictures of George sleeping on my chair, he didn't stop being cute after the first batch :3`,
-    keywords: `napping nap asleep sleeping sleepy kitty chair office`,
+    keywords: `George napping nap asleep sleeping sleepy kitty chair office`,
     images: ['https://i.imgur.com/kXjGmJy.jpg', 'https://i.imgur.com/ARWU4Jw.jpg', 'https://i.imgur.com/mh3o4DY.jpg', 'https://i.imgur.com/e928pJ4.jpg', 'https://i.imgur.com/XDWkcby.jpg', 'https://i.imgur.com/SCALNOK.jpg'],
   },
   {
@@ -81,7 +81,7 @@ module.exports = [
     url: `https://imgur.com/gallery/df5zM`,
     date: {day: 22, month: 3, year: 2018},
     description: `Lately in the afternoons George has been falling asleep in my chair. It's his way of saying: “Stop working dad, let's snuggle!”`,
-    keywords: `sleeping sleepy kitty napping naptime afternoon nap`,
+    keywords: `George sleeping sleepy kitty napping naptime afternoon nap chair office`,
     images: ['https://i.imgur.com/EqgfmHN.jpg', 'https://i.imgur.com/pGfm3Cv.jpg', 'https://i.imgur.com/vuAb7GX.jpg', 'https://i.imgur.com/NtMGY2s.jpg', 'https://i.imgur.com/y8rraEb.jpg', 'https://i.imgur.com/JJtC0Ls.jpg', 'https://i.imgur.com/KG1urV6.jpg', 'https://i.imgur.com/XSVZo4j.jpg'],
   },
   {
@@ -89,7 +89,7 @@ module.exports = [
     url: `https://imgur.com/gallery/185lr`,
     date: {day: 18, month: 3, year: 2018},
     description: `The first day waking up after coming home from a week-long trip and I think the cats missed me :D`,
-    keywords: `separation anxiety snuggly children`,
+    keywords: `separation anxiety snuggly children bed Gus George catdad`,
     images: ['https://i.imgur.com/UQ0CL4l.jpg'],
   },
   {
@@ -97,7 +97,7 @@ module.exports = [
     url: `https://imgur.com/gallery/I9awI`,
     date: {day: 4, month: 1, year: 2018},
     description: `ITS GEORGE!`,
-    keywords: `my baby george`,
+    keywords: `my baby George`,
     images: ['https://i.imgur.com/SuOZshE.jpg'],
   },
   {
