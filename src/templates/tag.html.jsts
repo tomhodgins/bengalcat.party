@@ -58,7 +58,7 @@
 
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 
-<ul>
+<ul class=toc>
   ${
 
     tagged
@@ -66,7 +66,7 @@
       .map(gallery => `
         <li>
           <a
-              href=gallery/${slug(gallery.title)}.html
+              href=/gallery/${slug(gallery.title)}.html
             style="background-image: url(${gallery.images[Math.floor(Math.random() * gallery.images.length)]});"
           >
             <span>${gallery.title}</span>

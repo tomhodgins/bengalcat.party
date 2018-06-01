@@ -47,7 +47,15 @@
 
   ${
     gallery.keywords
-    ? `<small class=tags>Tags: ${gallery.keywords.split(' ').join(', ')}</small>`
+    ? `<small class=tags>Tags: ${
+
+        gallery.keywords.split(' ')
+
+          .map(keyword => `<a href=/tags/${slug(keyword)}.htmlI>${keyword}</a>`)
+
+          .join(', ')
+
+      }</small>`
     : ''
   }
 
