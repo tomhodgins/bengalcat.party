@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang=en>
+<meta charset=utf-8>
+<meta name=viewport content="width=device-width, initial-scale=1">
+
+<title>${tag} Pictures | ${site.title}</title>
+<meta name=description content="Images tagged ${tag} on ${site.title}">
+<meta name=keywords content="${tag} ${[...site.keywords.split(' ')].join(', ')}">
+
+<meta property="og:title" content="${site.title}">
+<meta property="og:type" content=website>
+<meta property="og:url" content=https://bengalcat.party>
+<meta property="og:image" content="${site.favicon}">
+<meta property="og:description" content="${site.description}">
+
+<meta name="twitter:title" content="${site.title}">
+<meta name="twitter:creator" content="@innovati">
+<meta name="twitter:card" content=summary>
+<meta name="twitter:image" content="${site.favicon}">
+<meta name="twitter:description" content="${site.description}">
+
+<link rel=apple-touch-icon href=${site.favicon}>
+<link type=image/x-icon rel="shortcut icon" href=${site.favicon}>
+<link href="https://fonts.googleapis.com/css?family=Bubblegum+Sans|Mystery+Quest|Bubblegum+Sans" rel=stylesheet>
+
+<link rel=stylesheet href=${site.stylesheet}>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-119667733-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-119667733-1');
+</script>
+
+<h1 class=title><a href=/index.html>${site.title}</a></h1>
+
+<aside>
+
+  <h2 class=title>${
+    tag.split(' ')
+
+      .reduce((acc, word) => {
+
+        acc.push(word[0].toUpperCase() + word.substring(1))
+
+        return acc
+
+      }, [])
+
+      .join(' ')
+
+  }</h2>
+
+</aside>
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+<ul>
+  ${
+
+    tagged
+
+      .map(gallery => `
+        <li>
+          <a
+              href=gallery/${slug(gallery.title)}.html
+            style="background-image: url(${gallery.images[Math.floor(Math.random() * gallery.images.length)]});"
+          >
+            <span>${gallery.title}</span>
+          </a>`)
+
+      .join('\n')
+
+  }
+</ul>
