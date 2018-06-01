@@ -7,17 +7,17 @@
 <meta name=description content="Images tagged ${tag} on ${site.title}">
 <meta name=keywords content="${tag} ${[...site.keywords.split(' ')].join(', ')}">
 
-<meta property="og:title" content="${site.title}">
+<meta property="og:title" content="${tag} Pictures | ${site.title}">
 <meta property="og:type" content=website>
 <meta property="og:url" content=https://bengalcat.party>
 <meta property="og:image" content="${site.favicon}">
-<meta property="og:description" content="${site.description}">
+<meta property="og:description" content="Images tagged ${tag} on ${site.title}">
 
-<meta name="twitter:title" content="${site.title}">
+<meta name="twitter:title" content="${tag} Pictures | ${site.title}">
 <meta name="twitter:creator" content="@innovati">
 <meta name="twitter:card" content=summary>
 <meta name="twitter:image" content="${site.favicon}">
-<meta name="twitter:description" content="${site.description}">
+<meta name="twitter:description" content="Images tagged ${tag} on ${site.title}">
 
 <link rel=apple-touch-icon href=${site.favicon}>
 <link type=image/x-icon rel="shortcut icon" href=${site.favicon}>
