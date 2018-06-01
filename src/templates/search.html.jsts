@@ -35,11 +35,13 @@
   gtag('config', 'UA-119667733-1');
 </script>
 
-<h1 class=title>Search</h1>
+<h1 class=title>${site.title}</h1>
 
-<input type=search>
+<h2>Search</h2>
 
-<ul id=toc></ul>
+<input type=search placholder="Enter your search term(s) here">
+
+<ul class=toc></ul>
 
 <script>
   const searchBox = document.querySelector('[type=search]')
@@ -111,7 +113,7 @@
 
         if (string !== '') {
 
-          if (terms.some(term =>
+          if (terms.every(term =>
 
             gallery.title.toLowerCase().includes(term)
             || gallery.description.toLowerCase().includes(term)
@@ -159,7 +161,7 @@
 
     }
 
-    document.title = 'Search for: ' + string
+    return document.title = 'Search for: ' + string
 
   }
 </script>
