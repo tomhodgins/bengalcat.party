@@ -105,13 +105,12 @@
   gtag('config', 'UA-119667733-1');
 </script>
 
+<h1 class=title><a href=/index.html>${site.title}</a></h1>
+
 <aside>
 
-  <h2><a href=/index.html>${site.title}</a></h2>
+  <h2><a href=/tags/${slug(tag)}.html>Tagged &rarr; ${
 
-</aside>
-
-<h1 class=title><a href=/tags/${slug(tag)}.html>Tagged &rarr; ${
     tag.split(' ')
 
       .reduce((acc, word) => {
@@ -124,7 +123,9 @@
 
       .join(' ')
 
-}</a></h1>
+  }</a></h2>
+
+</aside>
 
 <ul class=toc>
   ${
