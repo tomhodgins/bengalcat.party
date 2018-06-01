@@ -136,9 +136,10 @@ aside {
   padding: 1em;
 }
 [type=search] {
+  appearance: none;
+  -webkit-appearance: none;
   margin: .5em;
   color: white;
-  appearance: none;
   padding: .5em;
   font-size: 20pt;
   font-family: 'Bubblegum Sans', cursive;
