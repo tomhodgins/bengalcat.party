@@ -51,7 +51,7 @@
 
         gallery.keywords.split(' ')
 
-          .map(keyword => `<a href=/tags/${slug(keyword)}.htmlI>${keyword}</a>`)
+          .map(keyword => `<a href="/tags/${slug(keyword)}.html">${keyword}</a>`)
 
           .join(', ')
 
