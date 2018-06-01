@@ -88,7 +88,7 @@ tags.forEach(tag => {
 
     .reduce((acc, gallery) => {
 
-      if (gallery.keywords.split(' ').includes(tag)) {
+      if (gallery.keywords.split(' ').includes(tag.toLowerCase())) {
 
         acc.push(gallery)
 
