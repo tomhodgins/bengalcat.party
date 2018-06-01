@@ -152,6 +152,7 @@ aside {
 }
 [type=search]:focus {
   border-color: orange;
+  outline: none;
 }
 type
 @media (max-width: 375px) {
