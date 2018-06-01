@@ -19,7 +19,7 @@ jstsNode.compile('templates/style.css.jsts', '..' + site.stylesheet)
 jstsNode.compile(
   'templates/index.html.jsts',
   '../index.html',
-  {site, galleries, ...helpers}
+  {site, galleries, helpers}
 )
 
 // Compile gallery files
@@ -28,7 +28,7 @@ galleries.forEach(gallery =>
   jstsNode.compile(
     'templates/gallery.html.jsts',
     `../gallery/${helpers.slug(gallery.title)}.html`,
-    {site, gallery, ...helpers}
+    {site, gallery, helpers}
   )
 
 )
@@ -62,7 +62,7 @@ tags.forEach(tag => {
 
     .reduce((acc, gallery) => {
 
-      if (gallery.keywords.toLowerCase().split(' ').includes(tag)) {
+      if (gallery.keywords.trim().toLowerCase().split(' ').includes(tag)) {
 
         acc.push(gallery)
 
@@ -75,7 +75,7 @@ tags.forEach(tag => {
   jstsNode.compile(
     'templates/tag.html.jsts',
     `../tags/${helpers.slug(tag)}.html`,
-    {site, ...helpers, tag, tagged}
+    {site, helpers, tag, tagged}
   )
 
 })

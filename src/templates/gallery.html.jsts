@@ -41,7 +41,7 @@
 
   <h2 class=title>${gallery.title}</h2>
 
-  <small class=posted>Posted: ${months[gallery.date.month - 1]} ${gallery.date.day}, ${gallery.date.year}</small>
+  <small class=posted>Posted: ${helpers.months[gallery.date.month - 1]} ${gallery.date.day}, ${gallery.date.year}</small>
 
   <p>${gallery.description}</p>
 
@@ -51,7 +51,7 @@
 
         gallery.keywords.split(' ')
 
-          .map(keyword => `<a href="/tags/${slug(keyword)}.html" title="View all galleries tagged ${keyword}">${keyword}</a>`)
+          .map(keyword => `<a href="/tags/${helpers.slug(keyword)}.html" title="View all galleries tagged ${keyword}">${keyword}</a>`)
 
           .join(', ')
 
@@ -65,7 +65,7 @@
 
 <ul>
   ${
-    shuffle(
+    helpers.shuffle(
       [...gallery.images.map(image => `
           <li>
             <a href=${image}>

@@ -1,6 +1,5 @@
 const fs = require('fs')
 const glob = require('glob')
-
 const jstsEngine = require('./jsts-engine.js')
 
 module.exports.load = function(path='*.jsts') {
