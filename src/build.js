@@ -22,6 +22,13 @@ jstsNode.compile(
   {site, galleries, helpers}
 )
 
+// Compile search file
+jstsNode.compile(
+  'templates/search.html.jsts',
+  '../search.html',
+  {site, galleries, helpers}
+)
+
 // Compile gallery files
 galleries.forEach(gallery =>
 
@@ -33,23 +40,22 @@ galleries.forEach(gallery =>
 
 )
 
-// Generate sitemap file
-fs.writeFileSync('../sitemap.txt',
-
-  glob.sync('../**/*.html')
-    .map(path => path.replace(/^..\//, 'https://bengalcat.party/'))
-    .join('\n')
-
-)
-
 // Find all tags
 const tags = galleries
 
   .reduce((acc, gallery) => {
 
-    gallery.keywords.trim().toLowerCase().split(' ')
+    gallery.keywords.trim().toLowerCase().split(/\s+/)
 
-      .forEach(tag => acc.push(tag))
+      .forEach(tag => {
+
+        if (!acc.includes(tag)) {
+
+          acc.push(tag)
+
+        }
+
+      })
 
     return acc
 
@@ -62,7 +68,7 @@ tags.forEach(tag => {
 
     .reduce((acc, gallery) => {
 
-      if (gallery.keywords.trim().toLowerCase().split(' ').includes(tag)) {
+      if (gallery.keywords.trim().toLowerCase().split(/\s+/).includes(tag)) {
 
         acc.push(gallery)
 
@@ -79,3 +85,12 @@ tags.forEach(tag => {
   )
 
 })
+
+// Generate sitemap file
+fs.writeFileSync('../sitemap.txt',
+
+  glob.sync('../**/*.html')
+    .map(path => path.replace(/^..\//, 'https://bengalcat.party/'))
+    .join('\n')
+
+)
