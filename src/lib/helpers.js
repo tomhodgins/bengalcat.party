@@ -1,4 +1,4 @@
-module.exports.slug = function(string) {
+module.exports.slug = function(string='') {
 
   return string.toLowerCase().replace(/\W/g, '-')
 

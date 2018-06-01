@@ -47,17 +47,9 @@ const tags = galleries
 
   .reduce((acc, gallery) => {
 
-    const keywords = gallery.keywords.toLowerCase().split(' ')
+    gallery.keywords.trim().toLowerCase().split(' ')
 
-    for (tag in keywords) {
-
-      if (!acc.includes(keywords[tag])) {
-
-        acc.push(keywords[tag])
-
-      }
-
-    }
+      .forEach(tag => acc.push(tag))
 
     return acc
 
