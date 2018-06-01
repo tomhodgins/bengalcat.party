@@ -47,13 +47,13 @@ const tags = galleries
 
   .reduce((acc, gallery) => {
 
-    const keywords = gallery.keywords.split(' ')
+    const keywords = gallery.keywords.toLowerCase().split(' ')
 
     for (tag in keywords) {
 
-      if (!acc.includes(keywords[tag].toLowerCase())) {
+      if (!acc.includes(keywords[tag])) {
 
-        acc.push(keywords[tag].toLowerCase())
+        acc.push(keywords[tag])
 
       }
 
@@ -88,7 +88,7 @@ tags.forEach(tag => {
 
     .reduce((acc, gallery) => {
 
-      if (gallery.keywords.split(' ').includes(tag.toLowerCase())) {
+      if (gallery.keywords.toLowerCase().split(' ').includes(tag)) {
 
         acc.push(gallery)
 

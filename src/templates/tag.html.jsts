@@ -123,6 +123,7 @@
 }</a></h1>
 
 <ul class=toc>
+  ${tagged}
   ${
 
     tagged
