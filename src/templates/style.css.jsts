@@ -141,11 +141,12 @@ aside {
   appearance: none;
   padding: .5em;
   font-size: 20pt;
+  font-family: 'Bubblegum Sans', cursive;
   border-radius: .25em;
   display: block;
   width: calc(100% - 1em);
   border: 1px solid black;
-  background: rgba(0,0,0, .3);
+  background: rgba(255, 255, 255, .3);
   transition: border-color .2s ease-in-out;
 }
 [type=search]:focus {
