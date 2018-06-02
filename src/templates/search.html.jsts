@@ -48,9 +48,6 @@
 <ul class=toc></ul>
 
 <script>
-  const searchBox = document.querySelector('[type=search]')
-  const list = document.querySelector('.toc')
-
   var galleries = ${
 
     JSON.stringify(
@@ -83,12 +80,16 @@
     )
 
   }
-
   const slug = ${helpers.slug}
+  const searchBox = document.querySelector('[type=search]')
+  const list = document.querySelector('.toc')
 
   window.addEventListener('load', e => {
 
-    const searchString = location.search.substring(1).toLowerCase().replace('+', ' ')
+    const searchString = location.search
+                           .substring(1)
+                           .toLowerCase()
+                           .replace('+', ' ')
 
     searchBox.value = searchString
 
@@ -96,17 +97,18 @@
 
   })
 
-  document.querySelector('[type=search]').addEventListener('keyup', e =>
-    checkSearch(e.target.value.toLowerCase()))
+  searchBox.addEventListener('keyup', searchFromInput)
+  searchBox.addEventListener('blur', searchFromInput)
+  searchBox.addEventListener('paste', searchFromInput)
+  searchBox.addEventListener('search', searchFromInput)
 
-  document.querySelector('[type=search]').addEventListener('blur', e =>
-    checkSearch(e.target.value.toLowerCase()))
+  function searchFromInput(e) {
 
-  document.querySelector('[type=search]').addEventListener('search', e =>
-    checkSearch(e.target.value.toLowerCase()))
+    const searchString = e.target.value.toLowerCase()
 
-  document.querySelector('[type=search]').addEventListener('paste', e =>
-    checkSearch(e.target.value.toLowerCase()))
+    return checkSearch(searchString)
+
+  }
 
   function checkSearch(string='') {
 
