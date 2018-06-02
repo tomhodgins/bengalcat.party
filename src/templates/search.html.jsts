@@ -119,9 +119,10 @@
 
           if (terms.every(term =>
 
-            gallery.title.toLowerCase().includes(term)
-            || gallery.description.toLowerCase().includes(term)
-            || gallery.keywords.toLowerCase().includes(term)
+            [gallery.title, gallery.description, gallery.keywords]
+              .join(' ')
+              .toLowerCase()
+              .includes(term)
 
           )) {
 
