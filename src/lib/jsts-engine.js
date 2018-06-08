@@ -9,6 +9,6 @@ module.exports = function(string = '', environment = {}) {
 
     'return [`' + string + '`, output]'
 
-  ).apply(null, Object.values(environment))
+  )(...Object.values(environment))
 
 }

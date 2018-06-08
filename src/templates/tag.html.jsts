@@ -3,91 +3,21 @@
 <meta charset=utf-8>
 <meta name=viewport content="width=device-width, initial-scale=1">
 
-<title>${
+<title>${upperCaseTag} Pictures | ${site.title}</title>
+<meta name=description content="Images tagged “${upperCaseTag}” on ${site.title}">
+<meta name=keywords content="${upperCaseTag} ${[...site.keywords.split(' ')].join(', ')}">
 
-  tag.split(' ')
-
-    .reduce((acc, word) => {
-
-      acc.push(word[0].toUpperCase() + word.substring(1))
-
-      return acc
-
-    }, [])
-
-    .join(' ')
-
-} Pictures | ${site.title}</title>
-<meta name=description content="Images tagged “${
-
-  tag.split(' ')
-
-    .reduce((acc, word) => {
-
-      acc.push(word[0].toUpperCase() + word.substring(1))
-
-      return acc
-
-    }, [])
-
-    .join(' ')
-
-}” on ${site.title}">
-<meta name=keywords content="${tag} ${[...site.keywords.split(' ')].join(', ')}">
-
-<meta property="og:title" content="${
-
-  tag.split(' ')
-
-    .reduce((acc, word) => {
-
-      acc.push(word[0].toUpperCase() + word.substring(1))
-
-      return acc
-
-    }, [])
-
-    .join(' ')
-
-} Pictures | ${site.title}">
+<meta property="og:title" content="${upperCaseTag} Pictures | ${site.title}">
 <meta property="og:type" content=website>
 <meta property="og:url" content=https://bengalcat.party>
 <meta property="og:image" content="${site.favicon}">
-<meta property="og:description" content="Images tagged “${
+<meta property="og:description" content="Images tagged “${upperCaseTag}” on ${site.title}">
 
-  tag.split(' ')
-
-    .reduce((acc, word) => {
-
-      acc.push(word[0].toUpperCase() + word.substring(1))
-
-      return acc
-
-    }, [])
-
-    .join(' ')
-
-}” on ${site.title}">
-
-<meta name="twitter:title" content="${tag} Pictures | ${site.title}">
+<meta name="twitter:title" content="${upperCaseTag} Pictures | ${site.title}">
 <meta name="twitter:creator" content="@innovati">
 <meta name="twitter:card" content=summary>
 <meta name="twitter:image" content="${site.favicon}">
-<meta name="twitter:description" content="Images tagged “${
-
-  tag.split(' ')
-
-    .reduce((acc, word) => {
-
-      acc.push(word[0].toUpperCase() + word.substring(1))
-
-      return acc
-
-    }, [])
-
-    .join(' ')
-
-}” on ${site.title}">
+<meta name="twitter:description" content="Images tagged “${upperCaseTag}” on ${site.title}">
 
 <link rel=apple-touch-icon href=${site.favicon}>
 <link type=image/x-icon rel="shortcut icon" href=${site.favicon}>
@@ -111,17 +41,9 @@
 
   <h2><a href=/tags/${helpers.slug(tag)}.html>Tagged &rarr; ${
 
-    tag.split(' ')
-
-      .reduce((acc, word) => {
-
-        acc.push(word[0].toUpperCase() + word.substring(1))
-
-        return acc
-
-      }, [])
-
-      .join(' ')
+    tag.split('-')
+      .map(word => word[0].toUpperCase() + word.substring(1))
+      .join('-')
 
   }</a></h2>
 
@@ -131,7 +53,6 @@
   ${
 
     tagged
-
       .map(gallery => `
         <li>
           <a
@@ -139,8 +60,8 @@
             style="background-image: url(${gallery.images[Math.floor(Math.random() * gallery.images.length)]});"
           >
             <span>${gallery.title}</span>
-          </a>`)
-
+          </a>
+      `)
       .join('\n')
 
   }

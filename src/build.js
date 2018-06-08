@@ -81,7 +81,13 @@ tags.forEach(tag => {
   jstsNode.compile(
     'templates/tag.html.jsts',
     `../tags/${helpers.slug(tag)}.html`,
-    {site, helpers, tag, tagged}
+    {
+      site,
+      helpers,
+      tag,
+      tagged,
+      upperCaseTag: tag[0].toUpperCase() + tag.substring(1)
+    }
   )
 
 })
