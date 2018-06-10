@@ -106,7 +106,6 @@ tags.forEach(tag => {
   )
 
 })
-
 console.log(`✔ Tag pages built`)
 
 // Generate sitemap file

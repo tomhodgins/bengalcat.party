@@ -42,7 +42,7 @@ module.exports = [
     date: {day: 10, month: 6, year: 2018},
     description: `Today George woke up from his nap with a squeak, then came limping into the office where Gus had been siting on the bed. I picked George up and placed him next to Gus and then the most adorable cat grooming party happened 🐱👅🐯`,
     keywords: `groom grooming brothers Gus siamese`,
-    images: ["https://i.imgur.com/IL5TAmlg.jpg", "https://i.imgur.com/jiw3f04g.jpg", "https://i.imgur.com/M2hSuKEg.jpg", "https://i.imgur.com/gEbz3psg.jpg", "https://i.imgur.com/q44lBd0g.jpg", "https://i.imgur.com/ssHGZYBg.jpg", "https://i.imgur.com/gYWq37zg.jpg"],
+    images: ["https://i.imgur.com/IL5TAml.jpg", "https://i.imgur.com/jiw3f04.jpg", "https://i.imgur.com/M2hSuKE.jpg", "https://i.imgur.com/gEbz3ps.jpg", "https://i.imgur.com/q44lBd0.jpg", "https://i.imgur.com/ssHGZYB.jpg", "https://i.imgur.com/gYWq37z.jpg"],
   },
   {
     title: `Ghost Hunting`,
@@ -50,7 +50,7 @@ module.exports = [
     date: {day: 31, month: 5, year: 2018},
     description: `Catsitting George's half-sister Ghost. She has the same dad as George (Squilliam) but her mom is Tigra, and George was born to Wolverina`,
     keywords: `Ghost hunting silver leopard sister Tigra baby sibling`,
-    images:  ["https://i.imgur.com/oQZLnkJg.jpg", "https://i.imgur.com/TWCMsIgg.jpg", "https://i.imgur.com/xWeA1gfg.jpg", "https://i.imgur.com/EgwsKpPg.jpg", "https://i.imgur.com/aw7zYUsg.jpg", "https://i.imgur.com/WOBpIyhg.jpg", "https://i.imgur.com/gZbSGTig.jpg", "https://i.imgur.com/ruXKgoKg.jpg", "https://i.imgur.com/XzjtoEog.jpg"],
+    images:  ["https://i.imgur.com/oQZLnkJ.jpg", "https://i.imgur.com/TWCMsIg.jpg", "https://i.imgur.com/xWeA1gf.jpg", "https://i.imgur.com/EgwsKpP.jpg", "https://i.imgur.com/aw7zYUs.jpg", "https://i.imgur.com/WOBpIyh.jpg", "https://i.imgur.com/gZbSGTi.jpg", "https://i.imgur.com/ruXKgoK.jpg", "https://i.imgur.com/XzjtoEo.jpg"],
   },
   {
     title: 'Ceiling Inspection',
@@ -58,7 +58,7 @@ module.exports = [
     date: {day: 22, month: 5, year: 2018},
     description: `George enjoys hopping up on top of closet doors. Here he is just a few inches from the ceiling!`,
     keywords: 'George ceiling closet door climb jump vertical office',
-    images: ['https://i.imgur.com/UmdNdVvg.jpg', 'https://i.imgur.com/VUDkEbng.jpg', 'https://i.imgur.com/PzckfhPg.jpg']
+    images: ['https://i.imgur.com/UmdNdVv.jpg', 'https://i.imgur.com/VUDkEbn.jpg', 'https://i.imgur.com/PzckfhP.jpg']
   },
   {
     title: `George zonked out on the bed`,
