@@ -25,6 +25,7 @@ https://bengalcat.party/gallery/george-the-bengal.html
 https://bengalcat.party/gallery/george-zonked-out-on-the-bed.html
 https://bengalcat.party/gallery/george.html
 https://bengalcat.party/gallery/ghost-hunting.html
+https://bengalcat.party/gallery/grooming-time.html
 https://bengalcat.party/gallery/gus----george.html
 https://bengalcat.party/gallery/gus-and-george.html
 https://bengalcat.party/gallery/gus-using-george-like-a-pillow.html
@@ -110,6 +111,8 @@ https://bengalcat.party/tags/gator.html
 https://bengalcat.party/tags/george.html
 https://bengalcat.party/tags/ghost.html
 https://bengalcat.party/tags/giant.html
+https://bengalcat.party/tags/groom.html
+https://bengalcat.party/tags/grooming.html
 https://bengalcat.party/tags/gus.html
 https://bengalcat.party/tags/hammock.html
 https://bengalcat.party/tags/happening.html
@@ -161,7 +164,6 @@ https://bengalcat.party/tags/perch.html
 https://bengalcat.party/tags/pet.html
 https://bengalcat.party/tags/pillow.html
 https://bengalcat.party/tags/pillowcase.html
-https://bengalcat.party/tags/pillowcasepillow.html
 https://bengalcat.party/tags/platform.html
 https://bengalcat.party/tags/plushie.html
 https://bengalcat.party/tags/prison.html

@@ -12,8 +12,20 @@ const site = require('./site-info.js')
 // Gallery data
 const galleries = require('./galleries.js')
 
+// Check that all gallery titles are unique
+console.log(
+
+  galleries.map(gallery =>
+    galleries.filter(item => item.title === gallery.title).length
+  ).every(result => result === 1)
+  ? '✔ All gallery titles unique'
+  : '✘ Not all gallery titles are unique'
+
+)
+
 // Compile css file
 jstsNode.compile('templates/style.css.jsts', '..' + site.stylesheet)
+console.log('✔ CSS compiled')
 
 // Compile index file
 jstsNode.compile(
@@ -21,6 +33,7 @@ jstsNode.compile(
   '../index.html',
   {site, galleries, helpers}
 )
+console.log('✔ Index page built')
 
 // Compile search file
 jstsNode.compile(
@@ -28,6 +41,7 @@ jstsNode.compile(
   '../search.html',
   {site, galleries, helpers}
 )
+console.log('✔ Search page built')
 
 // Compile gallery files
 galleries.forEach(gallery =>
@@ -39,6 +53,7 @@ galleries.forEach(gallery =>
   )
 
 )
+console.log(`✔ Gallery pages built`)
 
 // Find all tags
 const tags = galleries
@@ -92,6 +107,8 @@ tags.forEach(tag => {
 
 })
 
+console.log(`✔ Tag pages built`)
+
 // Generate sitemap file
 fs.writeFileSync('../sitemap.txt',
 
@@ -100,3 +117,4 @@ fs.writeFileSync('../sitemap.txt',
     .join('\n')
 
 )
+console.log('✔ Sitemap.txt generated')

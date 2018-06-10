@@ -41,16 +41,19 @@
   ${
 
     galleries
-
       .map(gallery => `
         <li>
           <a
             href=/gallery/${helpers.slug(gallery.title)}.html
-            style="background-image: url(${gallery.images[Math.floor(Math.random() * gallery.images.length)]});"
+            style="background-image: url(${
+              gallery.images[
+                Math.floor(Math.random() * gallery.images.length)
+              ]
+            });"
           >
             <span>${gallery.title}</span>
-          </a>`)
-
+          </a>
+      `)
       .join('\n')
 
   }

@@ -5,7 +5,7 @@
 {
   title: ``,
   url: ``,
-  date: {day: 0, month: 0, year: 201?},
+  date: {day: 0, month: 0, year: 2018},
   description: ``,
   keywords: ``,
   images: [],
@@ -36,6 +36,14 @@ or
 
 module.exports = [
 
+  {
+    title: `Grooming Time`,
+    url: `https://imgur.com/gallery/QCPQ0IF`,
+    date: {day: 10, month: 6, year: 2018},
+    description: `Today George woke up from his nap with a squeak, then came limping into the office where Gus had been siting on the bed. I picked George up and placed him next to Gus and then the most adorable cat grooming party happened 🐱👅🐯`,
+    keywords: `groom grooming brothers Gus siamese`,
+    images: ["https://i.imgur.com/IL5TAmlg.jpg", "https://i.imgur.com/jiw3f04g.jpg", "https://i.imgur.com/M2hSuKEg.jpg", "https://i.imgur.com/gEbz3psg.jpg", "https://i.imgur.com/q44lBd0g.jpg", "https://i.imgur.com/ssHGZYBg.jpg", "https://i.imgur.com/gYWq37zg.jpg"],
+  },
   {
     title: `Ghost Hunting`,
     url: `https://imgur.com/gallery/CNYT6Fm`,

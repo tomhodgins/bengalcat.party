@@ -55,17 +55,21 @@
       galleries.map(gallery => {
 
         return Object.keys(gallery)
-
-          .filter(key => ['title', 'description', 'keywords', 'images'].includes(key))
-
+          .filter(key =>
+            [
+              'title',
+              'description',
+              'keywords',
+              'images'
+            ].includes(key)
+          )
           .reduce((acc, obj) => {
 
             if (obj === 'images') {
 
               acc[obj] = gallery[obj][Math.floor(Math.random() * gallery[obj].length)]
 
-            }
-            else {
+            } else {
 
               acc[obj] = gallery[obj]
 
@@ -80,6 +84,7 @@
     )
 
   }
+
   const slug = ${helpers.slug}
   const searchBox = document.querySelector('[type=search]')
   const list = document.querySelector('.toc')
@@ -114,15 +119,17 @@
 
     const terms = string.split(' ')
     const results = galleries
-
       .reduce((acc, gallery) => {
 
         if (string !== '') {
 
           if (terms.every(term =>
 
-            [gallery.title, gallery.description, gallery.keywords]
-              .join(' ')
+            [
+              gallery.title,
+              gallery.description,
+              gallery.keywords
+            ].join(' ')
               .toLowerCase()
               .includes(term)
 
@@ -139,9 +146,7 @@
       }, [])
 
     const output = results
-
       .map(result =>
-
         '<li>'
         +  '<a'
         +  ' href=/gallery/' + slug(result.title) + '.html'
@@ -149,9 +154,7 @@
         +  '>'
         +    '<span>' + result.title + '</span>'
         +  '</a>'
-
       )
-
       .join('')
 
     if (results.length) {
