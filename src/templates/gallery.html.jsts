@@ -9,7 +9,7 @@
 
 <meta property="og:title" content="${site.title}">
 <meta property="og:type" content=website>
-<meta property="og:url" content=https://bengalcat.party>
+<meta property="og:url" content="https://bengalcat.party/gallery/${helpers.slug(gallery.title)}.html">
 <meta property="og:image" content="${gallery.images[Math.floor(Math.random() * gallery.images.length)]}">
 <meta property="og:description" content="Pictures of ${gallery.title}. ${gallery.description}">
 
