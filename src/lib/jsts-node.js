@@ -5,7 +5,6 @@ const jstsEngine = require('./jsts-engine.js')
 module.exports.load = function(path='*.jsts') {
 
   return glob.sync(path)
-
     .map(filename => fs.readFileSync(filename).toString())
 
 }

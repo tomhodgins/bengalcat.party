@@ -11,25 +11,26 @@
   images: [],
 },
 
-## Find image urls by running these on the JS console of imgur post page
+## Find image urls by running these on the JS console of imgur post page:
 
 ```
 [...document.querySelectorAll('.js-post-image-thumb')]
-  .map(item => item.src)
+  .map(img => img.src)
 ```
 
 or
 
 ```
 [...document.querySelectorAll('.post-image-placeholder')]
-  .map(item => item.src)
+  .map(img => img.src)
+  .map(src => src.replace(/g.jpg$/m, '.jpg'))
 ```
 
 or
 
 ```
 [...document.querySelectorAll('.post-grid-image')]
-  .map(item => `https:${item.dataset.href}`)
+  .map(img => `https:${img.dataset.href}`)
 ```
 
 */
@@ -42,7 +43,7 @@ module.exports = [
     date: {day: 10, month: 6, year: 2018},
     description: `Today George woke up from his nap with a squeak, then came limping into the office where Gus had been siting on the bed. I picked George up and placed him next to Gus and then the most adorable cat grooming party happened 🐱👅🐯`,
     keywords: `groom grooming brothers Gus siamese`,
-    images: ["https://i.imgur.com/IL5TAml.jpg", "https://i.imgur.com/jiw3f04.jpg", "https://i.imgur.com/M2hSuKE.jpg", "https://i.imgur.com/gEbz3ps.jpg", "https://i.imgur.com/q44lBd0.jpg", "https://i.imgur.com/ssHGZYB.jpg", "https://i.imgur.com/gYWq37z.jpg"],
+    images: ['https://i.imgur.com/IL5TAml.jpg', 'https://i.imgur.com/jiw3f04.jpg', 'https://i.imgur.com/M2hSuKE.jpg', 'https://i.imgur.com/gEbz3ps.jpg', 'https://i.imgur.com/q44lBd0.jpg', 'https://i.imgur.com/ssHGZYB.jpg', 'https://i.imgur.com/gYWq37z.jpg'],
   },
   {
     title: `Ghost Hunting`,
@@ -50,7 +51,7 @@ module.exports = [
     date: {day: 31, month: 5, year: 2018},
     description: `Catsitting George's half-sister Ghost. She has the same dad as George (Squilliam) but her mom is Tigra, and George was born to Wolverina`,
     keywords: `Ghost hunting silver leopard sister Tigra baby sibling`,
-    images:  ["https://i.imgur.com/oQZLnkJ.jpg", "https://i.imgur.com/TWCMsIg.jpg", "https://i.imgur.com/xWeA1gf.jpg", "https://i.imgur.com/EgwsKpP.jpg", "https://i.imgur.com/aw7zYUs.jpg", "https://i.imgur.com/WOBpIyh.jpg", "https://i.imgur.com/gZbSGTi.jpg", "https://i.imgur.com/ruXKgoK.jpg", "https://i.imgur.com/XzjtoEo.jpg"],
+    images:  ['https://i.imgur.com/oQZLnkJ.jpg', 'https://i.imgur.com/TWCMsIg.jpg', 'https://i.imgur.com/xWeA1gf.jpg', 'https://i.imgur.com/EgwsKpP.jpg', 'https://i.imgur.com/aw7zYUs.jpg', 'https://i.imgur.com/WOBpIyh.jpg', 'https://i.imgur.com/gZbSGTi.jpg', 'https://i.imgur.com/ruXKgoK.jpg', 'https://i.imgur.com/XzjtoEo.jpg'],
   },
   {
     title: 'Ceiling Inspection',

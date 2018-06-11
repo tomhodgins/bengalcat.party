@@ -1,4 +1,3 @@
-// Node modules
 const fs = require('fs')
 const glob = require('glob')
 
@@ -7,61 +6,63 @@ const jstsNode = require('./lib/jsts-node.js')
 const helpers = require('./lib/helpers.js')
 
 // Site info
-const site = require('./site-info.js')
+const site = require(`./site-info.js`)
 
 // Gallery data
-const galleries = require('./galleries.js')
+const galleries = require(`./galleries.js`)
 
 // Check that all gallery titles are unique
-console.log(
-
-  galleries.map(gallery =>
-    galleries.filter(item => item.title === gallery.title).length
-  ).every(result => result === 1)
-  ? '✔ All gallery titles unique'
-  : '✘ Not all gallery titles are unique'
-
-)
+galleries.map(gallery =>
+  galleries.filter(item => item.title === gallery.title).length
+).every(result => result === 1)
+? console.log(`✔ All gallery titles unique`)
+: console.error(`✘ Not all gallery titles are unique`)
 
 // Compile css file
-jstsNode.compile('templates/style.css.jsts', '..' + site.stylesheet)
-console.log('✔ CSS compiled')
+jstsNode.compile(
+  `templates/style.css.jsts`,
+  `..${site.stylesheet}`,
+  {site, helpers}
+)
+
+console.log(`✔ CSS compiled`)
 
 // Compile index file
 jstsNode.compile(
-  'templates/index.html.jsts',
-  '../index.html',
+  `templates/index.html.jsts`,
+  `../index.html`,
   {site, galleries, helpers}
 )
-console.log('✔ Index page built')
+
+console.log(`✔ Index page built`)
 
 // Compile search file
 jstsNode.compile(
-  'templates/search.html.jsts',
-  '../search.html',
+  `templates/search.html.jsts`,
+  `../search.html`,
   {site, galleries, helpers}
 )
-console.log('✔ Search page built')
+
+console.log(`✔ Search page built`)
 
 // Compile gallery files
 galleries.forEach(gallery =>
 
   jstsNode.compile(
-    'templates/gallery.html.jsts',
+    `templates/gallery.html.jsts`,
     `../gallery/${helpers.slug(gallery.title)}.html`,
     {site, gallery, helpers}
   )
 
 )
+
 console.log(`✔ Gallery pages built`)
 
 // Find all tags
 const tags = galleries
-
   .reduce((acc, gallery) => {
 
     gallery.keywords.trim().toLowerCase().split(/\s+/)
-
       .forEach(tag => {
 
         if (!acc.includes(tag)) {
@@ -80,7 +81,6 @@ const tags = galleries
 tags.forEach(tag => {
 
   const tagged = galleries
-
     .reduce((acc, gallery) => {
 
       if (gallery.keywords.trim().toLowerCase().split(/\s+/).includes(tag)) {
@@ -94,7 +94,7 @@ tags.forEach(tag => {
     }, [])
 
   jstsNode.compile(
-    'templates/tag.html.jsts',
+    `templates/tag.html.jsts`,
     `../tags/${helpers.slug(tag)}.html`,
     {
       site,
@@ -106,14 +106,16 @@ tags.forEach(tag => {
   )
 
 })
+
 console.log(`✔ Tag pages built`)
 
 // Generate sitemap file
-fs.writeFileSync('../sitemap.txt',
+fs.writeFileSync(`../sitemap.txt`,
 
-  glob.sync('../**/*.html')
-    .map(path => path.replace(/^..\//, 'https://bengalcat.party/'))
-    .join('\n')
+  glob.sync(`../**/*.html`)
+    .map(path => path.replace(/^..\//, `https://bengalcat.party/`))
+    .join(`\n`)
 
 )
-console.log('✔ Sitemap.txt generated')
+
+console.log(`✔ Sitemap.txt generated`)
