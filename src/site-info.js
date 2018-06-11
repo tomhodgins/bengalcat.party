@@ -4,6 +4,6 @@ module.exports = {
   keywords: `bengal cat kitten bengals feline bengal tabby cute adorable animal pictures photo gallery`,
   headlineFont: `'Mystery Quest', cursive`,
   bodyFont: `'Bubblegum Sans', cursive`,
-  favicon: `/src/img/favicon.png`,
+  favicon: `/src/img/favicon.jpg`,
   stylesheet: `/style.css`
 }
