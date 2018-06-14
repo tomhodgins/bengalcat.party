@@ -63,8 +63,8 @@ ${(() => {
               title="View all galleries tagged ${keyword}"
             >${
               keyword
-            }</a>
-          `)
+            }</a>`
+          )
           .join(', ')
 
       }</small>`
