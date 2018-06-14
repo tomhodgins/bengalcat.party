@@ -12,30 +12,62 @@
 
 ## Step 4: Run code in JS console to extract image URLs
 
-    [...document.querySelectorAll('.post-image-placeholder')]
-      .map(img => img.src)
-      .map(src => src.replace(/g.jpg$/m, '.jpg'))
+[...document.querySelectorAll('.post-image-placeholder')]
+  .map(img => img.src)
+  .map(src => src.replace(/g.jpg$/m, '.jpg'))
 
 or
 
-    [...document.querySelectorAll('.js-post-image-thumb')]
-      .map(img => img.src)
+[...document.querySelectorAll('.js-post-image-thumb')]
+  .map(img => img.src)
 
 or
 
-    [...document.querySelectorAll('.post-grid-image')]
-      .map(img => `https:${img.dataset.href}`)
+[...document.querySelectorAll('.post-grid-image')]
+  .map(img => `https:${img.dataset.href}`)
 
 ## Step 5: Add new gallery object to array below
 
-    {
-      title: ``,
-      url: ``,
-      date: {day: 0, month: 0, year: 2018},
-      description: ``,
-      keywords: ``,
-      images: [],
-    },
+  {
+    title: ``,
+    url: ``,
+    date: {day: 0, month: 0, year: 2018},
+    description: ``,
+    keywords: ``,
+    images: [],
+  },
+
+## Alternate Step 4 & 5: Paste template into JS console and copy object
+
+`{
+  title: \`${document.querySelector('h1.post-title').innerHTML}\`,
+  url: \`${location.href}\`,
+  date: {day: ${
+    new Date(
+      document.querySelector('.post-title-meta > span:last-of-type')
+        .title
+    ).getDate()
+  }, month: ${
+    new Date(
+      document.querySelector('.post-title-meta > span:last-of-type')
+        .title
+    ).getMonth() + 1
+  }, year: ${
+    new Date(
+      document.querySelector('.post-title-meta > span:last-of-type')
+        .title
+    ).getFullYear()
+  }},
+  description: \`\`,
+  keywords: \`\`,
+  images: [${
+    [...document.querySelectorAll('.post-image-placeholder')]
+      .map(img => img && img.src)
+      .map(src => src && `"${src.replace(/g.jpg$/m, '.jpg')}"`)
+      .join(', ')
+  }]
+}`
+
 
 */
 
