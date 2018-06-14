@@ -37,6 +37,7 @@ https://bengalcat.party/gallery/my-little-cat-helpers.html
 https://bengalcat.party/gallery/our-cat-family--jaz-the-tuxedo--gus-the-siamese----george-the-bengal.html
 https://bengalcat.party/gallery/sleepy-deskmate.html
 https://bengalcat.party/gallery/snuggletime-with-george-and-gus.html
+https://bengalcat.party/gallery/tiny-siamese-jellybeans.html
 https://bengalcat.party/index.html
 https://bengalcat.party/search.html
 https://bengalcat.party/tags/1.html
@@ -101,6 +102,7 @@ https://bengalcat.party/tags/entertainment.html
 https://bengalcat.party/tags/eyeliner.html
 https://bengalcat.party/tags/family.html
 https://bengalcat.party/tags/faucet.html
+https://bengalcat.party/tags/feet.html
 https://bengalcat.party/tags/first.html
 https://bengalcat.party/tags/fixed.html
 https://bengalcat.party/tags/forever.html
@@ -129,6 +131,7 @@ https://bengalcat.party/tags/itty.html
 https://bengalcat.party/tags/jail.html
 https://bengalcat.party/tags/jasmine.html
 https://bengalcat.party/tags/jaz.html
+https://bengalcat.party/tags/jellybean.html
 https://bengalcat.party/tags/jellybeans.html
 https://bengalcat.party/tags/jump.html
 https://bengalcat.party/tags/kitten.html
@@ -200,6 +203,7 @@ https://bengalcat.party/tags/swim.html
 https://bengalcat.party/tags/tiger.html
 https://bengalcat.party/tags/tigra.html
 https://bengalcat.party/tags/tiny.html
+https://bengalcat.party/tags/toes.html
 https://bengalcat.party/tags/toy.html
 https://bengalcat.party/tags/trap.html
 https://bengalcat.party/tags/tree.html

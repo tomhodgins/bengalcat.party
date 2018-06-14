@@ -1,42 +1,54 @@
 /*
 
-## Format
+# Adding Galleries
 
-{
-  title: ``,
-  url: ``,
-  date: {day: 0, month: 0, year: 2018},
-  description: ``,
-  keywords: ``,
-  images: [],
-},
+## Step 1: Load imgur gallery submissions
 
-## Find image urls by running these on the JS console of imgur post page:
+- https://imgur.com/user/innovati/submitted
 
-```
-[...document.querySelectorAll('.js-post-image-thumb')]
-  .map(img => img.src)
-```
+## Step 2: Click on desired gallery
+
+## Step 3: Shrink browser zoom to fit all gallery images on screen
+
+## Step 4: Run code in JS console to extract image URLs
+
+    [...document.querySelectorAll('.post-image-placeholder')]
+      .map(img => img.src)
+      .map(src => src.replace(/g.jpg$/m, '.jpg'))
 
 or
 
-```
-[...document.querySelectorAll('.post-image-placeholder')]
-  .map(img => img.src)
-  .map(src => src.replace(/g.jpg$/m, '.jpg'))
-```
+    [...document.querySelectorAll('.js-post-image-thumb')]
+      .map(img => img.src)
 
 or
 
-```
-[...document.querySelectorAll('.post-grid-image')]
-  .map(img => `https:${img.dataset.href}`)
-```
+    [...document.querySelectorAll('.post-grid-image')]
+      .map(img => `https:${img.dataset.href}`)
+
+## Step 5: Add new gallery object to array below
+
+    {
+      title: ``,
+      url: ``,
+      date: {day: 0, month: 0, year: 2018},
+      description: ``,
+      keywords: ``,
+      images: [],
+    },
 
 */
 
 module.exports = [
 
+  {
+    title: `Tiny Siamese Jellybeans`,
+    url: `https://imgur.com/gallery/IJTMhh2`,
+    date: {day: 13, month: 6, year: 2018},
+    description: `I caught Gus asleep on the bed with three of his four stompers together. Here are some pictures of his cute sleeping face, his fur, and those little pink jellybeans. 🤗`,
+    keywords: `Gus cat feet jellybean toes siamese`,
+    images: ["https://i.imgur.com/8xGYRBF.jpg", "https://i.imgur.com/hHUjClU.jpg", "https://i.imgur.com/KG39ZCA.jpg", "https://i.imgur.com/hsbL0Ce.jpg", "https://i.imgur.com/pSJqVgz.jpg"],
+  },
   {
     title: `Grooming Time`,
     url: `https://imgur.com/gallery/QCPQ0IF`,
