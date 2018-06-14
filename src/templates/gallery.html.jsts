@@ -61,9 +61,9 @@ ${(() => {
             <a
               href="/tags/${helpers.slug(keyword)}.html"
               title="View all galleries tagged ${keyword}"
-            >
-              ${keyword}
-            </a>
+            >${
+              keyword
+            }</a>
           `)
           .join(', ')
 
