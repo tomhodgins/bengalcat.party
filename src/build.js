@@ -51,7 +51,14 @@ galleries.forEach(gallery =>
   jstsNode.compile(
     `templates/gallery.html.jsts`,
     `../gallery/${helpers.slug(gallery.title)}.html`,
-    {site, gallery, helpers}
+    {
+      site,
+      gallery,
+      helpers,
+      randomImage: gallery.images[
+        Math.floor(Math.random() * gallery.images.length)
+      ]
+    }
   )
 
 )
