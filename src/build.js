@@ -1,6 +1,6 @@
 const fs = require('fs')
 const glob = require('glob')
-const jstsNode = require('jsts-node')
+const {compile} = require('jsts-node')
 
 // Site info
 const site = require('./site-info.js')
@@ -19,7 +19,7 @@ galleries.map(gallery =>
 : console.error(`✘ Not all gallery titles are unique`)
 
 // Compile css file
-jstsNode.compile(
+compile(
   `templates/style.css.jsts`,
   `..${site.stylesheet}`,
   {site, helpers}
@@ -28,7 +28,7 @@ jstsNode.compile(
 console.log(`✔ CSS compiled`)
 
 // Compile index file
-jstsNode.compile(
+compile(
   `templates/index.html.jsts`,
   `../index.html`,
   {site, galleries, helpers}
@@ -37,7 +37,7 @@ jstsNode.compile(
 console.log(`✔ Index page built`)
 
 // Compile search file
-jstsNode.compile(
+compile(
   `templates/search.html.jsts`,
   `../search.html`,
   {site, galleries, helpers}
@@ -48,7 +48,7 @@ console.log(`✔ Search page built`)
 // Compile gallery files
 galleries.forEach(gallery =>
 
-  jstsNode.compile(
+  compile(
     `templates/gallery.html.jsts`,
     `../gallery/${helpers.slug(gallery.title)}.html`,
     {
@@ -100,7 +100,7 @@ tags.forEach(tag => {
 
     }, [])
 
-  jstsNode.compile(
+  compile(
     `templates/tag.html.jsts`,
     `../tags/${helpers.slug(tag)}.html`,
     {
