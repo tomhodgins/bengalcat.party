@@ -27,6 +27,8 @@
   "homepage": "https://github.com/tomhodgins/bengalcat.party#readme",
   "dependencies": {
     "fs": "0.0.1-security",
-    "glob": "^7.1.2"
+    "glob": "^7.1.2",
+    "jsts-engine": "0.0.1",
+    "jsts-node": "0.0.1"
   }
 }

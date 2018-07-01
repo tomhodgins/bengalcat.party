@@ -1,15 +1,15 @@
 const fs = require('fs')
 const glob = require('glob')
-
-// Libraries & helpers
-const jstsNode = require('./lib/jsts-node.js')
-const helpers = require('./lib/helpers.js')
+const jstsNode = require('jsts-node')
 
 // Site info
-const site = require(`./site-info.js`)
+const site = require('./site-info.js')
+
+// Helper functions
+const helpers = require('./helpers.js')
 
 // Gallery data
-const galleries = require(`./galleries.js`)
+const galleries = require('./galleries.js')
 
 // Check that all gallery titles are unique
 galleries.map(gallery =>
