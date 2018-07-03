@@ -39,40 +39,49 @@ or
 
 ## Alternate Step 4 & 5: Paste template into JS console and copy object
 
-`{
-  title: \`${document.querySelector('h1.post-title').innerHTML}\`,
-  url: \`${location.href}\`,
-  date: {day: ${
-    new Date(
-      document.querySelector('.post-title-meta > span:last-of-type')
-        .title
-    ).getDate()
-  }, month: ${
-    new Date(
-      document.querySelector('.post-title-meta > span:last-of-type')
-        .title
-    ).getMonth() + 1
-  }, year: ${
-    new Date(
-      document.querySelector('.post-title-meta > span:last-of-type')
-        .title
-    ).getFullYear()
-  }},
-  description: \`\`,
-  keywords: \`\`,
-  images: [${
-    [...document.querySelectorAll('.post-image-placeholder')]
-      .map(img => img && img.src)
-      .map(src => src && `"${src.replace(/g.jpg$/m, '.jpg')}"`)
-      .join(', ')
-  }]
-}`
-
+`
+  {
+    title: \`${document.querySelector('h1.post-title').innerHTML}\`,
+    url: \`${location.href}\`,
+    date: {day: ${
+      new Date(
+        document.querySelector('.post-title-meta > span:last-of-type')
+          .title
+      ).getDate()
+    }, month: ${
+      new Date(
+        document.querySelector('.post-title-meta > span:last-of-type')
+          .title
+      ).getMonth() + 1
+    }, year: ${
+      new Date(
+        document.querySelector('.post-title-meta > span:last-of-type')
+          .title
+      ).getFullYear()
+    }},
+    description: \`\`,
+    keywords: \`\`,
+    images: [${
+      [...document.querySelectorAll('.post-image-placeholder')]
+        .map(img => img && img.src)
+        .map(src => src && `"${src.replace(/g.jpg$/m, '.jpg')}"`)
+        .join(', ')
+    }]
+  },
+`
 
 */
 
 module.exports = [
 
+  {
+    title: `Napping on the Office Bed`,
+    url: `https://imgur.com/a/HZHuXmv`,
+    date: {day: 3, month: 7, year: 2018},
+    description: `George and Gus napping on the bed in the office, intertwining their lil stompers as they sleep.`,
+    keywords: `george gus nap office bed`,
+    images: ["https://i.imgur.com/MsvxhsA.jpg", "https://i.imgur.com/JCfCkOF.jpg"]
+  },
   {
     title: `Three on a Tree`,
     url: `https://imgur.com/gallery/mysp8yi`,
