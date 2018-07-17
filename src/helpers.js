@@ -44,3 +44,18 @@ module.exports.months = [
   'November',
   'December'
 ]
+
+module.exports.upperCaseTag = function(string='') {
+
+  return string
+    .split('-')
+    .map(word => word[0].toUpperCase() + word.substring(1))
+    .join('-')
+
+}
+
+module.exports.randomArrayItem = function(array=[]) {
+
+  return array[Math.floor(Math.random() * array.length)]
+
+}

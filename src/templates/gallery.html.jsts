@@ -10,14 +10,14 @@
 <meta property="og:title" content="${gallery.title} | ${site.title}">
 <meta property="og:type" content=website>
 <meta property="og:url" content="${site.url}gallery/${helpers.slug(gallery.title)}.html">
-<meta property="og:image" content="${randomImage}">
+<meta property="og:image" content="${helpers.randomArrayItem(gallery.images)}">
 <meta property="og:description" content="Pictures of ${gallery.title}: ${gallery.description}">
 
 <meta name="twitter:title" content="${gallery.title} | ${site.title}">
 <meta name="twitter:creator" content="@innovati">
 <meta name="twitter:card" content=summary>
-<meta name="twitter:image" content="${randomImage}">
-<meta name="twitter:description" content="Pictures of ${gallery.title}: ${gallery.description}">
+<meta name="twitter:image" content="${helpers.randomArrayItem(gallery.images)}">
+<meta name="twitter:description" content="${gallery.title}: ${gallery.description}">
 
 <link rel=apple-touch-icon href=${site.url}${site.favicon}>
 <link type=image/x-icon rel="shortcut icon" href=${site.url}${site.favicon}>

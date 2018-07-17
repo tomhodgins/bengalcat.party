@@ -3,7 +3,7 @@
 <meta charset=utf-8>
 <meta name=viewport content="width=device-width, initial-scale=1">
 
-<title>${site.title}</title>
+<title>Tags | ${site.title}</title>
 <meta name=description content="${site.description}">
 <meta name=keywords content="${site.keywords.split(' ').join(', ')}">
 
@@ -38,15 +38,25 @@
 <ul class=toc>
   ${
 
-    galleries
-      .map(gallery => `
-        <li>
-          <a
-            href=${site.url}gallery/${helpers.slug(gallery.title)}.html
-            style="background-image: url(${helpers.randomArrayItem(gallery.images)});"
-          >
-            <span>${gallery.title}</span>
-          </a>
+    tags
+      .sort()
+      .map(tag => `<li>
+        <a
+          href=${site.url}tags/${helpers.slug(tag)}.html
+          style="
+            background-image: url(${
+              helpers.randomArrayItem(
+                helpers.randomArrayItem(
+                  galleriesTagged(tag)
+                ).images
+              )
+            })
+          "
+        ><span>${tag} - ${galleriesTagged(tag).length} galler${
+          galleriesTagged(tag).length === 1
+          ? 'y'
+          : 'ies'
+        }</span></a>
       `)
       .join('\n')
 

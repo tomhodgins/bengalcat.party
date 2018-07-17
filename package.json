@@ -8,7 +8,8 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "cd src && node build.js"
+    "build": "cd src && node build.js",
+    "dev": "cd src && node build.js 'dev'"
   },
   "repository": {
     "type": "git",
