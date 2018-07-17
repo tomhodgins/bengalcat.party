@@ -11,6 +11,16 @@ const helpers = require('./helpers.js')
 // Gallery data
 const galleries = require('./galleries.js')
 
+// Compile in dev mode
+if (process.argv[2] === 'dev') {
+
+  console.log(`🚨🚨 HACKER ALERT! 🚨🚨`)
+  console.log(`Running in DEVELOPMENT mode`)
+  site.url = process.cwd().split('/src')[0] + '/'
+  console.log(`Site URL output as ${site.url}`)
+
+}
+
 // Check that all gallery titles are unique
 galleries.map(gallery =>
   galleries.filter(item => item.title === gallery.title).length
@@ -21,7 +31,7 @@ galleries.map(gallery =>
 // Compile css file
 compile(
   `templates/style.css.jsts`,
-  `..${site.stylesheet}`,
+  `../${site.stylesheet}`,
   {site, helpers}
 )
 
@@ -120,7 +130,7 @@ console.log(`✔ Tag pages built`)
 fs.writeFileSync(`../sitemap.txt`,
 
   glob.sync(`../**/*.html`)
-    .map(path => path.replace(/^..\//, `https://bengalcat.party/`))
+    .map(path => path.replace(/^..\//, site.url))
     .join(`\n`)
 
 )
