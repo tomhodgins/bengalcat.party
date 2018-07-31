@@ -75,6 +75,14 @@ or
 module.exports = [
 
   {
+    title: `You can change a bed but you can't change cats`,
+    url: `https://imgur.com/gallery/4UcZXOg`,
+    date: {day: 30, month: 7, year: 2018},
+    description: `George, Gus, and Jaz wouldn't stay off the bed while we changed it and washed the sheets. Now the mattress pad is covered in hair too! 🤦‍♂️`,
+    keywords: `George Gus Jaz Office Bed Old Habits`,
+    images: ["https://i.imgur.com/fbxrLel.jpg", "https://i.imgur.com/NlEj708.jpg", "https://i.imgur.com/RQT48PF.jpg", "https://i.imgur.com/ZnaMvZ4.jpg", "https://i.imgur.com/SGHWLId.jpg", "https://i.imgur.com/Pko6HIV.jpg", "https://i.imgur.com/D8TQaDN.jpg", "https://i.imgur.com/YJ0X4RE.jpg"]
+  },
+  {
     title: `Jasmine is Queen of the Bath Mat`,
     url: `https://imgur.com/gallery/oG98MSJ`,
     date: {day: 7, month: 7, year: 2018},
