@@ -15,6 +15,7 @@ https://bengalcat.party/gallery/george-playing-with-the-faucet-.html
 https://bengalcat.party/gallery/george-s-first-birthday--3.html
 https://bengalcat.party/gallery/george-s-first-nap-at-home.html
 https://bengalcat.party/gallery/george-s-furball-removal.html
+https://bengalcat.party/gallery/george-s-outdoor-adventure.html
 https://bengalcat.party/gallery/george-s-second-day.html
 https://bengalcat.party/gallery/george-sleeping-in-a-pillow.html
 https://bengalcat.party/gallery/george-sleeping-on-my-chair.html
@@ -36,11 +37,13 @@ https://bengalcat.party/gallery/jasmine-is-queen-of-the-bath-mat.html
 https://bengalcat.party/gallery/jaz-and-george-watching-cattv.html
 https://bengalcat.party/gallery/my-little-cat-helpers.html
 https://bengalcat.party/gallery/napping-on-the-office-bed.html
+https://bengalcat.party/gallery/office-bros.html
 https://bengalcat.party/gallery/our-cat-family--jaz-the-tuxedo--gus-the-siamese----george-the-bengal.html
 https://bengalcat.party/gallery/sleepy-deskmate.html
 https://bengalcat.party/gallery/snuggletime-with-george-and-gus.html
 https://bengalcat.party/gallery/three-on-a-tree.html
 https://bengalcat.party/gallery/tiny-siamese-jellybeans.html
+https://bengalcat.party/gallery/trippin-on-silvervine-and-catnip.html
 https://bengalcat.party/gallery/you-can-change-a-bed-but-you-can-t-change-cats.html
 https://bengalcat.party/index.html
 https://bengalcat.party/search.html
@@ -48,6 +51,7 @@ https://bengalcat.party/tags/1.html
 https://bengalcat.party/tags/adopt.html
 https://bengalcat.party/tags/adopted.html
 https://bengalcat.party/tags/adoption.html
+https://bengalcat.party/tags/adventure.html
 https://bengalcat.party/tags/afternoon.html
 https://bengalcat.party/tags/ali.html
 https://bengalcat.party/tags/aligator.html
@@ -56,6 +60,7 @@ https://bengalcat.party/tags/anxiety.html
 https://bengalcat.party/tags/asleep.html
 https://bengalcat.party/tags/augustus.html
 https://bengalcat.party/tags/baby.html
+https://bengalcat.party/tags/backyard.html
 https://bengalcat.party/tags/bath.html
 https://bengalcat.party/tags/bathroom.html
 https://bengalcat.party/tags/bed.html
@@ -79,6 +84,7 @@ https://bengalcat.party/tags/case.html
 https://bengalcat.party/tags/cat.html
 https://bengalcat.party/tags/catdad.html
 https://bengalcat.party/tags/catfriends.html
+https://bengalcat.party/tags/catnip.html
 https://bengalcat.party/tags/cattv.html
 https://bengalcat.party/tags/ceiling.html
 https://bengalcat.party/tags/cell.html
@@ -127,6 +133,7 @@ https://bengalcat.party/tags/hat.html
 https://bengalcat.party/tags/heating.html
 https://bengalcat.party/tags/helper.html
 https://bengalcat.party/tags/hiding.html
+https://bengalcat.party/tags/high.html
 https://bengalcat.party/tags/home.html
 https://bengalcat.party/tags/hunting.html
 https://bengalcat.party/tags/important.html
@@ -141,6 +148,7 @@ https://bengalcat.party/tags/jellybean.html
 https://bengalcat.party/tags/jellybeans.html
 https://bengalcat.party/tags/jump.html
 https://bengalcat.party/tags/kitten.html
+https://bengalcat.party/tags/kittenweed.html
 https://bengalcat.party/tags/kitty.html
 https://bengalcat.party/tags/leopard.html
 https://bengalcat.party/tags/linen.html
@@ -154,6 +162,7 @@ https://bengalcat.party/tags/my.html
 https://bengalcat.party/tags/nap.html
 https://bengalcat.party/tags/napping.html
 https://bengalcat.party/tags/naptime.html
+https://bengalcat.party/tags/nature.html
 https://bengalcat.party/tags/neuter.html
 https://bengalcat.party/tags/neutered.html
 https://bengalcat.party/tags/neutering.html
@@ -161,6 +170,7 @@ https://bengalcat.party/tags/new.html
 https://bengalcat.party/tags/office.html
 https://bengalcat.party/tags/old.html
 https://bengalcat.party/tags/one.html
+https://bengalcat.party/tags/outdoor.html
 https://bengalcat.party/tags/overprotective.html
 https://bengalcat.party/tags/pad.html
 https://bengalcat.party/tags/panther.html
@@ -172,6 +182,7 @@ https://bengalcat.party/tags/pelt.html
 https://bengalcat.party/tags/people.html
 https://bengalcat.party/tags/perch.html
 https://bengalcat.party/tags/pet.html
+https://bengalcat.party/tags/picnic.html
 https://bengalcat.party/tags/pillow.html
 https://bengalcat.party/tags/pillowcase.html
 https://bengalcat.party/tags/platform.html
@@ -186,6 +197,7 @@ https://bengalcat.party/tags/siamese.html
 https://bengalcat.party/tags/sibling.html
 https://bengalcat.party/tags/siblings.html
 https://bengalcat.party/tags/silver.html
+https://bengalcat.party/tags/silvervine.html
 https://bengalcat.party/tags/sink.html
 https://bengalcat.party/tags/sister.html
 https://bengalcat.party/tags/size.html
@@ -215,6 +227,7 @@ https://bengalcat.party/tags/toes.html
 https://bengalcat.party/tags/toy.html
 https://bengalcat.party/tags/trap.html
 https://bengalcat.party/tags/tree.html
+https://bengalcat.party/tags/tripping.html
 https://bengalcat.party/tags/tub.html
 https://bengalcat.party/tags/two.html
 https://bengalcat.party/tags/unafraid.html
@@ -224,4 +237,5 @@ https://bengalcat.party/tags/wade.html
 https://bengalcat.party/tags/watching.html
 https://bengalcat.party/tags/water.html
 https://bengalcat.party/tags/white.html
+https://bengalcat.party/tags/wild.html
 https://bengalcat.party/tags/year.html

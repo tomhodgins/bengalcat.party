@@ -75,9 +75,33 @@ or
 module.exports = [
 
   {
+    title: `Trippin on silvervine and catnip`,
+    url: `https://imgur.com/gallery/JWRuN3U`,
+    date: {day: 25, month: 8, year: 2018},
+    description: `The cats were getting low on catnip, so I picked up some new catnip and got a variety that was blended with silvervine. If you were ever wondering if bengals like catnip and silvervine, scroll down for your answer…`,
+    keywords: `george tripping catnip silvervine high kittenweed`,
+    images: ["https://i.imgur.com/SGkHTIgr.jpg", "https://i.imgur.com/YYj478hr.jpg", "https://i.imgur.com/egipF4ar.jpg"]
+  },
+  {
+    title: `Office Bros`,
+    url: `https://imgur.com/gallery/zscZWkB`,
+    date: {day: 17, month: 8, year: 2018},
+    description: `Some photos from a couple of different days recently when I've walked into the offiuce to catch George and Gus snuggled up to one another on the bed.`,
+    keywords: `george gus office snuggle`,
+    images: ["https://i.imgur.com/eHwX7Xtr.jpg", "https://i.imgur.com/ruDAYQWr.jpg", "https://i.imgur.com/If8aUd6r.jpg", "https://i.imgur.com/FXB7TI9r.jpg", "https://i.imgur.com/MvL5jqAr.jpg", "https://i.imgur.com/E4ScpqSr.jpg", "https://i.imgur.com/dWydSi6r.jpg"]
+  },
+  {
+    title: `George's Outdoor Adventure`,
+    url: `https://imgur.com/gallery/qyaUoEh`,
+    date: {day: 5, month: 8, year: 2018},
+    description: `George had been longingly looking into the hallway, and watching Cat TV so I decided he should come outside with me to the backyard on a little adventure. I put him in a harness, and put a leash on him, and also carried him outside in a carrier. He was very loud and scared at first, but once he had surveyed the landscape long enough he came out an snuggled up to me, as well as sniffed around like a little puppy. It might be a while before I take him out of the house again, but the times when I do are always so rewarding :3`,
+    keywords: `george outdoor picnic adventure backyard wild nature`,
+    images: ["https://i.imgur.com/l2iZ1Clr.jpg", "https://i.imgur.com/HEquU7Ur.jpg", "https://i.imgur.com/BODCcNCr.jpg"]
+  },
+  {
     title: `You can change a bed but you can't change cats`,
     url: `https://imgur.com/gallery/4UcZXOg`,
-    date: {day: 30, month: 7, year: 2018},
+    date: {day: 29, month: 7, year: 2018},
     description: `George, Gus, and Jaz wouldn't stay off the bed while we changed it and washed the sheets. Now the mattress pad is covered in hair too! 🤦‍♂️`,
     keywords: `George Gus Jaz Office Bed Old Habits`,
     images: ["https://i.imgur.com/fbxrLel.jpg", "https://i.imgur.com/NlEj708.jpg", "https://i.imgur.com/RQT48PF.jpg", "https://i.imgur.com/ZnaMvZ4.jpg", "https://i.imgur.com/SGHWLId.jpg", "https://i.imgur.com/Pko6HIV.jpg", "https://i.imgur.com/D8TQaDN.jpg", "https://i.imgur.com/YJ0X4RE.jpg"]
