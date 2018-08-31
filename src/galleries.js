@@ -75,6 +75,14 @@ or
 module.exports = [
 
   {
+    title: `Our Cat Family`,
+    url: `https://imgur.com/gallery/OllLsct`,
+    date: {day: 30, month: 8, year: 2018},
+    description: `I found George and Gus holding both hands as they napped on the bed, so I carefully picked Jaz up and placed her beside her brothers so I could take some pics. She remained there for a little while, growled a little, relaxed a little, cleaned her paws, and also gave George one warning punch in the face just in case he was thinking about doing anything.`,
+    keywords: `Jaz George Gus together cat family`,
+    images: ["https://i.imgur.com/19g6x93r.jpg", "https://i.imgur.com/SQzPGdgr.jpg", "https://i.imgur.com/pmHuI2ar.jpg", "https://i.imgur.com/KHXOG4Qr.jpg", "https://i.imgur.com/a3YI5Hhr.jpg"]
+  },
+  {
     title: `Trippin on silvervine and catnip`,
     url: `https://imgur.com/gallery/JWRuN3U`,
     date: {day: 25, month: 8, year: 2018},
