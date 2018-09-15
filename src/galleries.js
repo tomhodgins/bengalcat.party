@@ -75,6 +75,14 @@ or
 module.exports = [
 
   {
+    title: `Special Delivery`,
+    url: `https://imgur.com/gallery/GiY3e1B/comment/1483268545`,
+    date: {day: 14, month: 9, year: 2018},
+    description: `George and Gus couldn't resist sitting in the cardboard shipping box only moments after it became available. Such cute kitties, it's hard to get any work done some days because every time you turn around there's a gorgeous cat doing something heartwarming.`,
+    keywords: `Cat trap box Gus George Jaz`,
+    images: ["https://i.imgur.com/Y8jJhIur.jpg", "https://i.imgur.com/HDI6TZQr.jpg", "https://i.imgur.com/j4IBQJKr.jpg", "https://i.imgur.com/MV2XkU2r.jpg", "https://i.imgur.com/R5dfaCLr.jpg", "https://i.imgur.com/0qFbfxsr.jpg", "https://i.imgur.com/4tWdXMQr.jpg", "https://i.imgur.com/FPf80fhr.jpg"]
+  },
+  {
     title: `Our Cat Family`,
     url: `https://imgur.com/gallery/OllLsct`,
     date: {day: 30, month: 8, year: 2018},
