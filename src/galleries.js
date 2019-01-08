@@ -75,6 +75,14 @@ or
 module.exports = [
 
   {
+    title: `George and Gus Grooming on the Couch`,
+    url: `https://imgur.com/a/fjPaPYe`,
+    date: {day: 7, month: 1, year: 2019},
+    description: `Today the cats were spooked by fire alarm testing in our building, but finally after a few hours they have re-emerged from hiding. (Treats may or may not have been used as lures)`,
+    keywords: `George Gus grooming couch`,
+    images: ["https://i.imgur.com/Oua2IC6r.jpg", "https://i.imgur.com/1wC27Ypr.jpg", "https://i.imgur.com/fKrPgOOr.jpg", "https://i.imgur.com/CcAfNkcr.jpg", "https://i.imgur.com/o2d4d2tr.jpg", "https://i.imgur.com/HUUJHver.jpg", "https://i.imgur.com/Gkv5RYSr.jpg", "https://i.imgur.com/jPfsjBRr.jpg"]
+  },
+  {
     title: `Special Delivery`,
     url: `https://imgur.com/gallery/GiY3e1B/comment/1483268545`,
     date: {day: 14, month: 9, year: 2018},
